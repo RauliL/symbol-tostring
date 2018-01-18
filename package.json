@@ -1,0 +1,29 @@
+{
+  "name": "symbol-tostring",
+  "description": "Convert symbols to strings",
+  "version": "1.0.0",
+  "author": "Rauli Laine <rauli.laine@iki.fi>",
+  "homepage": "https://github.com/RauliL/symbol-tostring",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RauliL/symbol-tostring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RauliL/symbol-tostring/issues"
+  },
+  "keywords": [
+    "symbol",
+    "utility"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.0"
+  }
+}
