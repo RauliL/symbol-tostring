@@ -1,7 +1,7 @@
 {
   "name": "symbol-tostring",
   "description": "Convert symbols to strings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Rauli Laine <rauli.laine@iki.fi>",
   "homepage": "https://github.com/RauliL/symbol-tostring",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "utility"
   ],
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "istanbul cover _mocha",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
